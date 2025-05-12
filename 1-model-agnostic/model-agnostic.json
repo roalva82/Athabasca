@@ -19,8 +19,8 @@
         "RDRS_v2.1_P_FI_SFC"
       ],
       "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/datatool_outputs",
-      "start-date": "2018-09-01T00:00:00",
-      "end-date": "2018-09-30T00:00:00",
+      "start-date": "2015-09-01T00:00:00",
+      "end-date": "2015-09-30T00:00:00",
       "lat-lims": "",
       "lon-lims": "",
       "shape-file": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
