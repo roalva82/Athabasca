@@ -18,12 +18,12 @@
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
-      "output-dir": "/home/rodolfo.alvaradomont/projects/Alberta/datatool_outputs",
+      "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/datatool_outputs",
       "start-date": "2018-09-01T00:00:00",
       "end-date": "2018-09-30T00:00:00",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/rodolfo.alvaradomont/projects/Alberta/0-geofabric/results/basins.shp",
+      "shape-file": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
       "model": "",
       "ensemble": "",
       "prefix": "rdrs_",
@@ -41,10 +41,10 @@
       "variable": "land-cover",
       "start-date": "2015",
       "end-date": "2015",
-      "output-dir": "/home/rodolfo.alvaradomont/projects/Alberta/gistool_outputs/landsat",
+      "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/gistool_outputs/landsat",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/rodolfo.alvaradomont/projects/Alberta/0-geofabric/results/basins.shp",
+      "shape-file": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
       "print-geotiff": "true",
       "stat": [
         "frac",
@@ -68,10 +68,10 @@
       "variable": "soil_classes",
       "start-date": "",
       "end-date": "",
-      "output-dir": "/home/rodolfo.alvaradomont/projects/Alberta/datatool_outputs/gistool_outputs/soil_classes",
+      "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/gistool_outputs/soil_classes",
       "lat-lims": "",
       "lon-lims": "",
-      "shape-file": "/home/rodolfo.alvaradomont/projects/Alberta/0-geofabric/results/basins.shp",
+      "shape-file": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
       "print-geotiff": "true",
       "stat": [
         "majority"
@@ -90,10 +90,10 @@
 
     "remap": [{
       "case-name": "remapped",
-      "cache": "/home/rodolfo.alvaradomont/projects/Alberta/easymore_outputs/temp_dir/",
-      "shapefile": "/home/rodolfo.alvaradomont/projects/Alberta/0-geofabric/results/basins.shp",
-      "shapefile-id": "COMID",
-      "source-nc": "/home/rodolfo.alvaradomont/projects/Alberta/datatool_outputs/*/*.nc*",
+      "cache": "/home/rodolfo.alvaradomont/repos/Athabasca/easymore_outputs/temp_dir/",
+      "shapefile": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
+      "shapefile-id": "HydroID",
+      "source-nc": "/home/rodolfo.alvaradomont/repos/Athabasca/datatool_outputs/*/*.nc*",
       "variable-lon": "lon",
       "variable-lat": "lat",
       "variable": [
@@ -105,10 +105,10 @@
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
-      "remapped-var-id": "OBJECTID",
-      "remapped-dim-id": "OBJECTID",
-      "output-dir": "/home/rodolfo.alvaradomont/projects/Alberta/easymore_outputs/remapped/",
-      "job-conf":"/home/rodolfo.alvaradomont/projects/Alberta/1-model-agnostic/easymore-job.slurm",
+      "remapped-var-id": "HydroID",
+      "remapped-dim-id": "HydroID",
+      "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/easymore_outputs/remapped/",
+      "job-conf":"/home/rodolfo.alvaradomont/repos/Athabasca/1-model-agnostic/easymore-job.slurm",
       "_flags": [
         "submit-job"
       ]
