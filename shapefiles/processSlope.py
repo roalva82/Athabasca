@@ -3,7 +3,7 @@ import rasterio
 from shapely.geometry import Point
 
 # Load river network
-rivers = gpd.read_file("DrainageLine_Athabasca.shp")
+rivers = gpd.read_file("DrainageLine_AthabascaRiver.shp")
 
 # Load basins
 basins = gpd.read_file("Catchment_AthabascaRiver.shp")

@@ -7,7 +7,7 @@ wget https://extranet.gov.ab.ca/srd/geodiscover/srd_pub/inlandWaters/ArcHydro/Al
 unzip AlbertaArcHydroPhase2.zip
 
 #extract layers of interest from ArcHydro
-ogr2ogr -f "ESRI Shapefile" DrainageLine_Athabasca.shp AlbertaArcHydroPhase2/Data/Geodatabase/10TM/AlbertaArcHydroPhase2Vector.gdb/ DrainageLine_AthabascaRiver
+ogr2ogr -f "ESRI Shapefile" DrainageLine_AthabascaRiver.shp AlbertaArcHydroPhase2/Data/Geodatabase/10TM/AlbertaArcHydroPhase2Vector.gdb/ DrainageLine_AthabascaRiver
 ogr2ogr -f "ESRI Shapefile" Catchment_AthabascaRiver.shp AlbertaArcHydroPhase2/Data/Geodatabase/10TM/AlbertaArcHydroPhase2Vector.gdb/ Catchment_AthabascaRiver
 
 #obtain data for dem
