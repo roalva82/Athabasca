@@ -5,6 +5,9 @@ from shapely.geometry import Point
 # Load river network
 rivers = gpd.read_file("DrainageLine_Athabasca.shp")
 
+# Load basins
+basins = gpd.read_file("Catchment_AthabascaRiver.shp")
+
 # Create a new slope column initialized with NaN
 rivers['Slope'] = None
 
@@ -40,4 +43,10 @@ rivers['Slope'] = rivers['Slope'].astype(float).round(6)
 
 # Save to new shapefile
 rivers.to_file("river_with_slope.shp")
+
+# Rename the column (attribute)
+basins = basins.rename(columns={"HydroID": "DrainID"})
+
+# Save to a new shapefile (or overwrite the original)
+basins.to_file("basins_renamedID.shp")
 

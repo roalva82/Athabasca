@@ -20,7 +20,7 @@
       ],
       "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/datatool_outputs",
       "start-date": "2015-09-01T00:00:00",
-      "end-date": "2015-09-30T00:00:00",
+      "end-date": "2015-09-10T00:00:00",
       "lat-lims": "",
       "lon-lims": "",
       "shape-file": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
@@ -53,7 +53,7 @@
       "quantile": "",
       "prefix": "landsat_",
       "email": "rodolfo.alvaradomont@ucalgary.ca",
-      "fid": "HydroID",
+      "fid": "DrainID",
       "cluster": "/home/rodolfo.alvaradomont/repos/gistool/etc/clusters/ucalgary-arc.json",
       "_flags": [
 	"include-na",
@@ -79,7 +79,7 @@
       "quantile": "",
       "prefix": "soil_",
       "email": "rodolfo.alvaradomont@ucalgary.ca",
-      "fid": "HydroID",
+      "fid": "DrainID",
       "cluster": "/home/rodolfo.alvaradomont/repos/gistool/etc/clusters/ucalgary-arc.json",
       "_flags": [
 	"include-na",
@@ -92,7 +92,7 @@
       "case-name": "remapped",
       "cache": "/home/rodolfo.alvaradomont/repos/Athabasca/easymore_outputs/temp_dir/",
       "shapefile": "/home/rodolfo.alvaradomont/repos/Athabasca/0-geofabric/results/basins.shp",
-      "shapefile-id": "HydroID",
+      "shapefile-id": "DrainID",
       "source-nc": "/home/rodolfo.alvaradomont/repos/Athabasca/datatool_outputs/*/*.nc*",
       "variable-lon": "lon",
       "variable-lat": "lat",
@@ -105,8 +105,8 @@
         "RDRS_v2.1_P_FB_SFC",
         "RDRS_v2.1_P_FI_SFC"
       ],
-      "remapped-var-id": "HydroID",
-      "remapped-dim-id": "HydroID",
+      "remapped-var-id": "DrainID",
+      "remapped-dim-id": "DrainID",
       "output-dir": "/home/rodolfo.alvaradomont/repos/Athabasca/easymore_outputs/remapped/",
       "job-conf":"/home/rodolfo.alvaradomont/repos/Athabasca/1-model-agnostic/easymore-job.slurm",
       "_flags": [
